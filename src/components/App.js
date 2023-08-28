@@ -5,12 +5,19 @@ function App() {
   return (
     <div id="wrapper">
       <div  className="content-box">
-        <h1>My name is Oscar Mancera</h1>
+        <div class='name-box'>
+          <h1>Oscar Mancera</h1>
+          <h2>Software engineer</h2>
+        </div>
+        
         <div className='projects-box'>
-          <h2>Projects</h2>
+          <h2>Projects:</h2>
+          <ul>
+            <li><a href="https://oscarmance.github.io/KeeperApp/">Keeper App</a></li>
+          </ul>
         </div>
         <div className='technologies-box'>
-          <h2>Technologies</h2>
+          <h2>Technologies:</h2>
           <ul>
             <li>Java</li>
             <li>Python</li>
@@ -18,7 +25,6 @@ function App() {
             <li>Javascript
               <ul>
                 <li>React</li>
-                <li><a href="https://oscarmance.github.io/KeeperApp/">Keeper App</a></li>
                 <li>NodeJS</li>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -32,7 +38,6 @@ function App() {
       <div className='profile-background'>
         <img className="oscar" src={oscar} alt="oscar"/>
       </div>
-
       <Footer/>
     </div>
   );

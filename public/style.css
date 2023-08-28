@@ -3,54 +3,73 @@ html {
     font-family: "Montserrat", sans-serif;
     padding: 0px;
     background-color: #F5EFE7;
+    z-index: -1;
   }
 
-h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
-    background-color: #354d73;
-    color: #66a1ee;
-    text-align: left;
-    width:100%;
-    margin-top: 5%;
-    padding-left: 10%; 
-    padding-top: 5%;
+body{
+    margin: 0px;
+}
 
-};
+.name-box{
+    background-color: #354d73;
+    color:#66a1ee;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.name-box h1 {
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.name-box h2 {
+    margin: 0px;
+    font-size: 1.5rem;
+    padding-bottom: 12px;
+    padding-left: 6%;
+    font-weight: 400;
+}
 
 
 #wrapper{
-    width: 100%;
-    height: 100%;
     position: relative;
     background-color: #F5EFE7;
+    width: 100%;
+    height: 100%;
 }
 
 .content-box{
     width: 60%;
-    height: 100%;
     position: absolute;
     background-color: #F5EFE7;
+    padding-top: 2%;
 }
 
+
 .profile-background{
-    position: absolute;
+    position: relative;
     width: 40%;
     height: 100%;
     left: 60%;
-    background-color:green;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 2rem;
 }
 
 .projects-box{
-    padding-left: 5%;
+    padding-left: 10%;
+    color: #354d73;
 }
 
 .technologies-box{
-    padding-left: 5%;
+    padding-left: 10%;
+    color: #354d73;
 }
 
 .oscar{
-    position: absolute;
     height: 100%;
     width: 100%;
 }
@@ -62,5 +81,13 @@ li{
 }
 
 ul{
-    padding-left: 20%;
+    
+}
+
+footer{
+    padding-top: 5%;
+}
+
+footer a{
+    padding: 2%;
 }
