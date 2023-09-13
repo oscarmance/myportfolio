@@ -1,14 +1,45 @@
 import oscar from '../images/oscar.png';
+import git from '../images/github.png';
 import Footer from "./Footer";
+import linkedin from '../images/linkedin.svg';
+import email_icon from '../images/email-icon.png';
 
 function App() {
   return (
     <div id="wrapper">
-      <div  className="content-box">
-        <div class='name-box'>
-          <h1>Oscar Mancera</h1>
-          <h2>Software engineer</h2>
+      
+      {/* Home */}
+      <section>
+        <div class="home-container">
+          <div class="flex-column">
+            <div class='name-box'>
+              <h1>Oscar Mancera</h1>
+              <h2>Software engineer</h2>
+            </div>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id dapibus mauris, in tincidunt nibh. Phasellus semper nunc non mauris auctor luctus.</p>
+            <div class="flex-row">
+              <a href='https://github.com/oscarmance'>
+                <img src={git} alt="git logo" height={"70;"}/>
+              </a>
+              <a href='https://www.linkedin.com/in/oscar-a-mancera-ramirez'>
+                <img src={linkedin} alt='linkedIn logo' height={"70;"}/>
+              </a>
+              <a href=''> 
+                <img src={email_icon} alt='email icon' height={"70;"} />
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <img class="oscar" src={oscar} alt='profile picture' height={"100vh;"}/>
+          </div>
+
         </div>
+      </section>
+
+
+      <div>
         
         <div className='projects-box'>
           <h2>Projects:</h2>
@@ -35,9 +66,6 @@ function App() {
         
       </div>
 
-      <div className='profile-background'>
-        <img className="oscar" src={oscar} alt="oscar"/>
-      </div>
       <Footer/>
     </div>
   );

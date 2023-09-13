@@ -10,78 +10,82 @@ body{
     margin: 0px;
 }
 
+.home-container{
+    height: 100vh;
+    display: flex;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-left: 15%;
+    gap: 15px;
+}
+
+.flex-column p{
+    color: #1b4b9b;
+    text-align: left;
+    width: 80%;
+    font-size: 2rem;
+    padding-left: 15%;
+    margin-top: 5%;
+}
+
 .name-box{
+    position: relative;
     background-color: #354d73;
     color:#66a1ee;
     font-family: 'Poppins', sans-serif;
     text-align: left;
-    padding-left: 5%;
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 15%;
 }
 
 .name-box h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 0px;
+    width: 60%;
 }
 
 .name-box h2 {
     margin: 0px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-bottom: 12px;
     padding-left: 6%;
     font-weight: 400;
+    width: 60%;
 }
 
 
 #wrapper{
-    position: relative;
     background-color: #F5EFE7;
     width: 100%;
-    height: 100%;
 }
 
-.content-box{
-    width: 60%;
-    position: absolute;
-    background-color: #F5EFE7;
-    padding-top: 2%;
-}
-
-
-.profile-background{
-    position: relative;
-    width: 40%;
-    height: 100%;
-    left: 60%;
-}
 
 h2{
     font-weight: 600;
     font-size: 2rem;
 }
 
-.projects-box{
-    padding-left: 10%;
-    color: #354d73;
-}
-
-.technologies-box{
-    padding-left: 10%;
-    color: #354d73;
-}
-
 .oscar{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 550px;
 }
 
 li{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 1.5rem;
-}
-
-ul{
-    
 }
 
 footer{
