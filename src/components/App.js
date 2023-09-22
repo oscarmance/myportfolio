@@ -4,7 +4,6 @@ import reactIcon from '../images/react icon.png';
 import javaIcon from '../images/java icon.png';
 import mongoIcon from '../images/mongoDB.png';
 import htmlIcon from '../images/html css js.png';
-import Footer from "./Footer";
 import linkedin from '../images/linkedin.svg';
 import email_icon from '../images/email-icon.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,11 +11,12 @@ import Projects from './Projects';
 
 
 function App() {
+
   return (
     <div id="wrapper">
 
       {/* Home */}
-      <section>
+      <section id="link1">
         <div class="home-container">
           <div class="flex-column">
             <div class='name-box'>
@@ -46,7 +46,7 @@ function App() {
       </section>
 
       {/* About Me */}
-      <section>
+      <section id="link2">
         <div class="about-container">
           <div class="about-column" >
               <h2>About Me</h2>
@@ -67,11 +67,27 @@ function App() {
       </section>
 
       {/* Projects */}
-      <section>
+      <section id="link3">
         <Projects />
       </section>
 
-      <Footer />
+      {/* Footer */}
+      <section id="link4">
+        <footer>
+              <div class="footer-section">
+                  <br/>
+                  <hr/>
+                  <h3>© Oscar Mancera</h3>
+                  <div className="links-section">
+                      <a href="#link1">Home</a>
+                      <a href="#link2">About Me</a>
+                      <a href="#link3" >Projects</a>
+                      <a href="mailto:oscar-97@live.com">Contact Me</a>
+                  </div>
+              </div>
+          </footer>
+      </section>
+
     </div>
   );
 }

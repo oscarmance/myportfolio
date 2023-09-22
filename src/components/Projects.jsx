@@ -13,31 +13,31 @@ function Projects(){
           <h2 >Projects</h2>
           <div class="container">
             <div class="row">
-                <div class="col-xl-4 col-lg-6 pt-1">
+                <div class="col-xl-4 col-lg-6 py-2">
                     <img class="img-fluid" src={project1} alt="project 1"/>
-                    <h3>Tindog</h3>
+                    <h4>Tindog</h4>
                 </div>
                 <div class="col-xl-4 col-lg-6 pt-1">
                     <a href="https://oscarmance.github.io/KeeperApp/">
                         <img class="img-fluid" src={project2}  alt="project 2"/>
-                        <h3>Keeper App</h3>
+                        <h4>Keeper App</h4>
                     </a>
                 </div>
                 <div class="col-xl-4 col-lg-6 pt-1">
                     <img class="img-fluid" src={project3} alt="project 3"/>
-                    <h3>Another</h3>
+                    <h4>Another</h4>
                 </div>
                 <div class="col-xl-4 col-lg-6 pt-1">
                     <img class="img-fluid" src={project4} alt="project 4"/>
-                    <h3>Tindog</h3>
+                    <h4>Tindog</h4>
                 </div>
                 <div class="col-xl-4 col-lg-6 pt-1">
                     <img class="img-fluid" src={project5} alt="project 5"/>
-                    <h3>FinancePal</h3>
+                    <h4>FinancePal</h4>
                 </div>
                 <div class="col-xl-4 col-lg-6 pt-1">
                     <img class="img-fluid" src={project6} alt="project 6"/>
-                    <h3>GymBuddy</h3>
+                    <h4>GymBuddy</h4>
                 </div>
             </div>
           </div>
